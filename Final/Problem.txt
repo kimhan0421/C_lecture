@@ -1,0 +1,96 @@
+1-6. (60 pts) 제출 파일명 1-6.txt 
+
+1. Break Point를 설정하는 이유와 방법을 구체적으로 설명해 보라.
+
+2. Stack Frame에 저장되는 요소 네 가지와 각 요소의 의미를 구체적으로 설명해 보라.
+
+3. 다음 배열 기호 각각을 포인터를 사용하여 표현해 보라.
+
+    a) arr[i]    b) arr[i][j]
+
+4. Deep Copy와 Shallow Copy의 차이점을 구체적으로 설명해 보라.
+
+5. Stack을 배열로 구현할 때와 연결 리스트로 구현할 때 Stack Top 위치가 어떻게 다르며,
+
+   왜 그렇게 달리 하는지를 구체적으로 설명해 보라.
+
+6. void add(int a, int b); 라고 했을 때, add 함수를 가리키는 함수 포인터를 선언하고
+
+   그 함수 포인터를 호출하여 3과 5를 더하는 함수를 써보라.
+
+ 
+
+ 
+
+7.(20 pts) 제출파일명 7.c
+
+ 
+
+10진수를 입력받아 거기에 해당하는 2진수를 출력하는 프로그램을 작성하라. 단, main( )은 반드시 decimal_to_binary(int n)이라는 재귀 함수(Recursive Function)를 호출하여 사용해야 하며, 배열을 사용해서는 안 된다.
+
+
+> Enter a Decimal Number.
+> 14 (Enter)
+> 14 in decimal is 1110 in binary.
+
+ 
+
+ 
+
+ 
+
+8.(20 pts) 제출파일명 8.c
+ 
+
+struct point {int x; int y}; struct rectangle{struct point tl; struct point br;}
+
+                                       // tl은 화면 좌상단(top left) 좌표, br은 화면 우하단(bottom right) 좌표
+
+라고 정의한 후 이들 구조체 타입의 변수를 사용하여 사각형의 넓이를 출력하는 프로그램을 작성하라.
+
+
+
+> Enter x, y of top left.
+> 1 1(Enter)
+> Enter x, y of bottom right.
+
+> 10 10(Enter)
+> The area of the rectangle is 81.
+
+ 
+
+ 
+
+ 
+
+9.(20 pts) 제출파일명 9.c
+gets 함수에 의해 2개의 문장을 입력받은 후, 문장을 서로 swapping 하여 출력하는 프로그램을 작성하라. 단, main( )은 반드시 swap_sentence(char* first, char* second)라는 함수를 호출해야 하며, 이 함수 내에서 포인터를 swapping 해야 한다. 문장 내부에는 빈칸이 있을 수 있으며, 문장의 길이는 최대 100 문자로 한다.
+
+ 
+
+> Enter first sentence.
+> Good Luck.(Enter)
+> Enter second sentence.
+
+> To You All.(Enter)
+> First sentence is To You All. Second sentence is Good Luck.
+
+ 
+
+      
+
+ 
+
+10.(20 pts) 제출파일명 10.c 
+
+교재 327쪽, 9장 3번 문제를 해결하는 프로그램을 작성하라.
+
+ 
+
+ 
+
+ 
+
+11.(20 pts) 제출파일명 11.c
+ 
+교재 513쪽, 12장 7번 문제를 해결하는 프로그램을 작성하라. 단, my_strcmp 함수 내에서 표준 라이브러리 함수인 strcmp 함수를 사용해서는 안 된다.
