@@ -11,10 +11,10 @@ void decimal_to_binary(int n) {
 
 int main() {
 	printf("Enter a Decimal Number.\n");
-	int n;
-	scanf("%d", &n);
-	printf("%d in decimal is ", n);
-	decimal_to_binary(n);
+	int num;
+	scanf("%d", &num);
+	printf("%d in decimal is ", num);
+	decimal_to_binary(num);
 	printf(" in binary.\n");
 	return 0;
 }
