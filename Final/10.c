@@ -4,8 +4,8 @@
 
 int main() {
 	char ch, a[100], b[100];
-	int i, length;	//length is the number of array elements.
-	int is_palindrome;
+	int i, length;	
+	int pa;
 
 	while (1) {
 
@@ -20,20 +20,20 @@ int main() {
 		if (length == 1 && a[0] == 'Q')
 			break;
 
-		for (i = 0; i < length; i++)	// store array a into b in reverse order 
+		for (i = 0; i < length; i++)	
 			b[length - 1 - i] = a[i];
 
-		is_palindrome = true;
+		pa = true;
 		for (i = 0; i < length; i++) {
 			if (a[i] != b[i]) {
-				is_palindrome = false;
+				pa = false;
 				break;
 			}
 		}
-		if (is_palindrome)
-			printf("Yes, it is a palindrome.\n");
+		if (pa)
+			printf("Yes.\n");
 		else
-			printf("No, it is not a palindrome.\n");
+			printf("No.\n");
 	}
 	return 0;
 }
