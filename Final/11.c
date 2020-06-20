@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-int my_strcmp(const char *str1, const char *str2) {
-	const char* temp1 = str1;
-	const char* temp2 = str2;
+int my_s(const char *s1, const char *s2) {
+	const char* temp1 = s1;
+	const char* temp2 = s2;
 
 	while (*temp1 != '\0' && *temp2 != '\0') {
 		if (*temp1 > *temp2)
@@ -23,19 +23,19 @@ int my_strcmp(const char *str1, const char *str2) {
 
 
 int main() {
-	char string1[100], string2[100];
+	char str1[100], str2[100];
 
 	while (1) {
 		printf("Enter string 1.\n");
-		gets(string1);
-		if (strcmp(string1, "quit") == 0)
+		gets(str1);
+		if (strcmp(str1, "quit") == 0)
 			break;
 
 		printf("Enter string 2.\n");
-		gets(string2);
-		if (strcmp(string2, "quit") == 0)
+		gets(str2);
+		if (strcmp(str2, "quit") == 0)
 			break;
-		printf("Result of strcmp(str1, str2) is %d.\n", my_strcmp(string1, string2));
+		printf("Result of strcmp(str1, str2) is %d.\n", my_s(str1, str2));
 	}
 	return 0;
 }
