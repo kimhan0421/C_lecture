@@ -3,10 +3,10 @@
 #include <string.h>
 
 void swap_sentence(char* first, char* second) {
-	char *temp;
-	temp = *first;
-	*first = *second;
-	*second = temp;
+	char *temp = (char*)malloc(sizeof(char) * 101);
+	strcpy(temp, first);
+	strcpy(first, second);
+	strcpy(second, temp);
 }
 
 int main() {
