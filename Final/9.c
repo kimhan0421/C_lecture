@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 
+/*
+void swap_sentence(char* first, char* second) {
+	char *temp;
+	temp = *first;
+	*first = *second;
+	*second = temp;
+}
+*/
 void swap_sentence(char* first, char* second) {
 	char *temp = (char*)malloc(sizeof(char) * 101);
 	strcpy(temp, first);
