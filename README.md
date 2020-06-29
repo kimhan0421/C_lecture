@@ -10,5 +10,5 @@
 [Chapter 12.](https://github.com/kimhan0421/C_lecture/tree/master/Chap12) String ) String input / output, Processing function...\
 [Chapter 13.](https://github.com/kimhan0421/C_lecture/tree/master/Chap13) Struct ) definition, copy, structure pointer array\
 [Chapter 14.](https://github.com/kimhan0421/C_lecture/tree/master/Ch14) FILE\
-[Midterm](https://github.com/kimhan0421/C_lecture/tree/master/Midterm)Chapter2~6\
-[Final](https://github.com/kimhan0421/C_lecture/tree/master/Final)Chapter8~14
+[Midterm](https://github.com/kimhan0421/C_lecture/tree/master/Midterm)Chapter2-6\
+[Final](https://github.com/kimhan0421/C_lecture/tree/master/Final)Chapter8-14
